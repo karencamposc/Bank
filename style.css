@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* Seccion de Login */ 
+  
+  .login {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.963);
+  }
+  
+  .login-container {
+    width: 50vw;
+    min-width: 300px;
+    max-width: 500px;
+    height: 250px;
+    border: 1px solid #000;
+    border-radius: 70%;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(192, 34, 28);
+  }
+ .home{
+    width: 100%;
+    height: 80vh;
+    color: rgb(230, 18, 18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   
+
+ }
+
+  .botonOp {
+    width: 100px;
+    height: 50px;
+    margin: 30px;
+  }
+  

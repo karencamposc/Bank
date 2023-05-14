@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+<section class="home">
+    <h1>BIENVENIDA</h1>
+    <div class="usuarioLogin"> Karen </div>
+    <img src="" alt="fotoUsuario">
+    <div class="account">
+        <span>Monto disponible:</span>
+        <h2>$5,000</h2>
+    </div>
+
+    <div class="operaciones">
+        <button class="botonOp">Consultar</button>
+        <button class="botonOp">Depositar</button>
+        <button class="botonOp">Retirar</button>
+    </div>
+    <div class="result-column">
+        <span>Monto a retirar</span>
+        <input type="number" placeholder="$0.00" min="5" max="1000" class="montoInput">
+        <button>Aceptar</button>
+    </section>
+    <button  onclick="salir()">Cerrar sesion</button>
+</body>
+</html>
